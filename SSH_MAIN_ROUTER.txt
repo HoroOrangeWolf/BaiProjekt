@@ -1,0 +1,23 @@
+SSH MAIN_ROUTER:
+
+username: sshUser1
+password: adgjl900@$
+domainname: cisco.com
+hostname: main_router
+
+ssh -l sshUser1
+
+client: main_router
+key: aaaconfig23
+
+client: router-d
+key: aaaconfig23d
+
+client: router-c
+key: aaaconfig23c
+
+Admin
+adminPass23
+
+show ntp associations
+show clock
